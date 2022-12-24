@@ -5,4 +5,15 @@
 //  Created by Storozhuk Sergey on 24.12.2022.
 //
 
-import Foundation
+import UIKit
+
+class ProfileViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+

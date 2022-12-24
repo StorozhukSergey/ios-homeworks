@@ -5,16 +5,17 @@
 //  Created by Storozhuk Sergey on 24.12.2022.
 //
 
-import SwiftUI
+import UIKit
 
-struct ProfileView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
-    }
+class ProfileView: UIView {
+    
+    @IBOutlet weak var photo: UIImageView!
+    
+    @IBOutlet weak var name: UILabel!
+    
+    @IBOutlet weak var birthDay: UILabel!
+    
+    @IBOutlet weak var city: UILabel!
+    
+    @IBOutlet weak var text: UITextView!
 }
